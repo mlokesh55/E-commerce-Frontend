@@ -161,7 +161,7 @@ body {
    
    
   .wishlist-icon {
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(216, 2, 2);
     cursor: pointer;
     position: relative; /* Changed from absolute to relative */
@@ -172,7 +172,7 @@ body {
   }
    
   .wishlist-icon:hover {
-    scale: 1.2;
+    scale: 1;
   }
    
   h4{
