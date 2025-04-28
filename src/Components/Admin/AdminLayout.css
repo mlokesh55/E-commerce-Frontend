@@ -1,0 +1,11 @@
+/* Components/Admin/AdminLayout.css */
+.admin-layout {
+    min-height: 100vh;
+    background-color: #f5f6fa;
+}
+
+.admin-content {
+    padding: 80px 20px 20px 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+}

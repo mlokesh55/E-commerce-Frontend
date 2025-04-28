@@ -1,0 +1,183 @@
+.orders-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .orders-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333;
+  }
+  
+  .no-orders {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+  }
+  
+  .no-orders p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .shop-now-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .shop-now-button:hover {
+    background-color: #45a049;
+  }
+  
+  .orders-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .order-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+  }
+  
+  .order-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f0f0f0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .order-id span, .order-date span, .order-status span, .payment-status span, .order-total span {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .order-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .status-badge, .payment-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-left: 5px;
+  }
+  
+  .status-pending {
+    background-color: #fff8e1;
+    color: #f57c00;
+  }
+  
+  .status-processing {
+    background-color: #e3f2fd;
+    color: #1976d2;
+  }
+  
+  .status-shipped {
+    background-color: #e8f5e9;
+    color: #388e3c;
+  }
+  
+  .status-delivered {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+  }
+  
+  .status-cancelled {
+    background-color: #ffebee;
+    color: #d32f2f;
+  }
+  
+  .payment-pending {
+    background-color: #fff8e1;
+    color: #f57c00;
+  }
+  
+  .payment-completed {
+    background-color: #e8f5e9;
+    color: #388e3c;
+  }
+  
+  .payment-failed {
+    background-color: #ffebee;
+    color: #d32f2f;
+  }
+  
+  .order-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .view-details-button {
+    background-color: #2196f3;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+  }
+  
+  .view-details-button:hover {
+    background-color: #0d8bf2;
+  }
+  
+  .loading {
+    text-align: center;
+    padding: 40px;
+    color: #666;
+    font-size: 18px;
+  }
+  
+  .error-container {
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .back-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #d32f2f;
+  }

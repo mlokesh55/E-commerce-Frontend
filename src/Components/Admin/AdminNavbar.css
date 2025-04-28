@@ -1,0 +1,90 @@
+/* Components/Admin/AdminNavbar.css */
+.admin-navbar {
+    background-color: #2c3e50;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.admin-navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    color: white;
+}
+
+.admin-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.admin-icon {
+    font-size: 24px;
+}
+
+.admin-nav-items {
+    display: flex;
+    gap: 20px;
+}
+
+.admin-nav-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.admin-nav-link:hover {
+    background-color: #34495e;
+}
+
+.admin-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.admin-name {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.admin-user-icon {
+    font-size: 18px;
+}
+
+.admin-logout-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-logout-btn:hover {
+    background-color: #c0392b;
+}
+
+@media (max-width: 768px) {
+    .admin-nav-items {
+        display: none;
+    }
+}
